@@ -22,6 +22,20 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+	// Apoli dependency
+	modImplementation "dev.overgrown.apoli:apoli:${project.apoli_maven_version}"
+	include "dev.overgrown.apoli:apoli:${project.apoli_maven_version}"
+
+	// Trinkets dependency (Optional)
+	modCompileOnly "dev.emi:trinkets:${trinkets_version}"
+
+	// Icarae Origin
+	modCompileOnly "dev.cammiescorner.icarus:Icarus-Fabric:${icarus_version}"
+	modCompileOnly "dev.upcraft.origins.icarae:Icarae-Origin-Fabric:${icarae_origin_version}"
+	// Icarae Origin (runtime)
+	modLocalRuntime "dev.cammiescorner.icarus:Icarus-Fabric:${icarus_version}"
+	modLocalRuntime "dev.upcraft.origins.icarae:Icarae-Origin-Fabric:${icarae_origin_version}"
 	
 }
 
