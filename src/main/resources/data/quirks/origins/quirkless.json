@@ -1,9 +1,0 @@
-{
-    "powers": [
-	],
-	"icon":"minecraft:barrier",
-	"unchoosable": false,
-	"order": 10,
-	"impact": 0,
-	"loading_priority": 0
-}

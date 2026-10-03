@@ -1,218 +1,372 @@
 {
   "acid_awakening":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.acid_awakening",
     "sounds":[
-      "quirks:acid/acid_awakening"
-    ],
-    "subtitle":"subtitles.quirks.acid_awakening"
+      {
+        "name":"quirks:acid/acid_awakening",
+        "stream":false
+      }
+    ]
   },
   "acid_shot_fired":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.acid_shot_fired",
     "sounds":[
-      "quirks:acid/acid_shot_fired"
-    ],
-    "subtitle":"subtitles.quirks.acid_shot_fired"
+      {
+        "name":"quirks:acid/acid_shot_fired",
+        "stream":false
+      }
+    ]
   },
   "acid_shot_hit":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.acid_shot_hit",
     "sounds":[
-      "quirks:acid/acid_shot_hit"
-    ],
-    "subtitle":"subtitles.quirks.acid_shot_hit"
+      {
+        "name":"quirks:acid/acid_shot_hit",
+        "stream":false
+      }
+    ]
   },
   "acidman_activate":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.acidman_activate",
     "sounds":[
-      "quirks:acid/acidman_activate"
-    ],
-    "subtitle":"subtitles.quirks.acidman_activate"
+      {
+        "name":"quirks:acid/acidman_activate",
+        "stream":false
+      }
+    ]
   },
   "alma":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.alma",
     "sounds":[
-      "quirks:acid/alma"
-    ],
-    "subtitle":"subtitles.quirks.alma"
+      {
+        "name":"quirks:alma/alma",
+        "stream":false
+      }
+    ]
   },
   "chainsaw":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.chainsaw",
     "sounds":[
-      "quirks:chainsaw/chainsaw"
-    ],
-    "subtitle":"subtitles.quirks.chainsaw"
+      {
+        "name":"quirks:chainsaw/chainsaw",
+        "stream":true
+      }
+    ]
   },
   "danger_sense_alert":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.danger_sense_alert",
     "sounds":[
-      "quirks:danger_sense/alert"
-    ],
-    "subtitle":"subtitles.quirks.danger_sense_alert"
+      {
+        "name":"quirks:danger_sense/danger_sense_alert",
+        "stream":false
+      }
+    ]
   },
   "stun_grenade_charging":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.stun_grenade_charging",
     "sounds":[
-      "quirks:explosion/stun_grenade_charging"
-    ],
-    "subtitle":"subtitles.quirks.stun_grenade_charging"
+      {
+        "name":"quirks:engine/stun_grenade_charging",
+        "stream":false
+      }
+    ]
   },
   "frostbite":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.frostbite",
     "sounds":[
-      "quirks:frost/frostbite"
-    ],
-    "subtitle":"subtitles.quirks.frostbite"
+      {
+        "name":"quirks:frost/frostbite",
+        "stream":false
+      }
+    ]
   },
   "frost_shard1":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.frost_shard",
     "sounds":[
-      "quirks:frost/shard1"
-    ],
-    "subtitle":"subtitles.quirks.frost_shard"
+      {
+        "name":"quirks:frost/frost_shard1",
+        "stream":false
+      }
+    ]
   },
   "frost_shard2":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.frost_shard",
     "sounds":[
-      "quirks:frost/shard2"
-    ],
-    "subtitle":"subtitles.quirks.frost_shard"
+      {
+        "name":"quirks:frost/frost_shard2",
+        "stream":false
+      }
+    ]
   },
   "gearshift_barrage_protocol":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.gearshift_barrage_protocol",
     "sounds":[
-      "quirks:gearshift/barrage_protocol"
-    ],
-    "subtitle":"subtitles.quirks.gearshift_barrage_protocol"
+      {
+        "name":"quirks:gearshift/gearshift_barrage_protocol",
+        "stream":false
+      }
+    ]
   },
   "gearshift_failed":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.gearshift_failed",
     "sounds":[
-      "quirks:gearshift/gearshift_failed"
-    ],
-    "subtitle":"subtitles.quirks.gearshift_failed"
+      {
+        "name":"quirks:gearshift/gearshift_failed",
+        "stream":false
+      }
+    ]
   },
   "gearshift_kinetic_brake":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.gearshift_kinetic_brake",
     "sounds":[
-      "quirks:gearshift/kinetic_brake"
-    ],
-    "subtitle":"subtitles.quirks.gearshift_kinetic_brake"
+      {
+        "name":"quirks:gearshift/gearshift_kinetic_brake",
+        "stream":false
+      }
+    ]
   },
   "gearshift_standard_shot":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.gearshift_standard_shot",
     "sounds":[
-      "quirks:gearshift/standard_shot"
-    ],
-    "subtitle":"subtitles.quirks.gearshift_standard_shot"
+      {
+        "name":"quirks:gearshift/gearshift_standard_shot",
+        "stream":false
+      }
+    ]
   },
   "gearshift_stinger_shot":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.gearshift_stinger_shot",
     "sounds":[
-      "quirks:gearshift/stinger_shot"
-    ],
-    "subtitle":"subtitles.quirks.gearshift_stinger_shot"
+      {
+        "name":"quirks:gearshift/gearshift_stinger_shot",
+        "stream":false
+      }
+    ]
   },
   "heal_kiss":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.heal_kiss",
     "sounds":[
-      "quirks:heal/kiss"
-    ],
-    "subtitle":"subtitles.quirks.heal_kiss"
+      {
+        "name":"quirks:heal/heal_kiss",
+        "stream":false
+      }
+    ]
   },
   "invisibility_blinded":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.invisibility_blinded",
     "sounds":[
-      "quirks:invisibility/blinded"
-    ],
-    "subtitle":"subtitles.quirks.invisibility_blinded"
+      {
+        "name":"quirks:invisibility/invisibility_blinded",
+        "stream":false
+      }
+    ]
   },
   "invisibility_cloak":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.invisibility_cloak",
     "sounds":[
-      "quirks:invisibility/cloak"
-    ],
-    "subtitle":"subtitles.quirks.invisibility_cloak"
+      {
+        "name":"quirks:invisibility/invisibility_cloak",
+        "stream":false
+      }
+    ]
   },
   "invisibility_combat":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.invisibility_combat",
     "sounds":[
-      "quirks:invisibility/combat"
-    ],
-    "subtitle":"subtitles.quirks.invisibility_combat"
+      {
+        "name":"quirks:invisibility/invisibility_combat",
+        "stream":false
+      }
+    ]
   },
   "jet_tailwind":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.jet_tailwind",
     "sounds":[
-      "quirks:jet/tailwind"
-    ],
-    "subtitle":"subtitles.quirks.jet_tailwind"
+      {
+        "name":"quirks:jet/jet_tailwind",
+        "stream":false
+      }
+    ]
   },
   "jet_updraft":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.jet_updraft",
     "sounds":[
-      "quirks:jet/updraft"
-    ],
-    "subtitle":"subtitles.quirks.jet_updraft"
+      {
+        "name":"quirks:jet/jet_updraft",
+        "stream":false
+      }
+    ]
   },
   "jet_gust_of_air":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.jet_gust_of_air",
     "sounds":[
-      "quirks:jet/gust_of_air"
-    ],
-    "subtitle":"subtitles.quirks.jet_gust_of_air"
+      {
+        "name":"quirks:jet/jet_gust_of_air",
+        "stream":false
+      }
+    ]
   },
   "move_selector_click":{
+    "category":"ui",
+    "subtitle":"subtitles.quirks.move_selector_click",
     "sounds":[
-      "quirks:move_selector/click"
-    ],
-    "subtitle":"subtitles.quirks.move_selector_click"
+      {
+        "name":"quirks:ui/move_selector_click",
+        "stream":false
+      }
+    ]
   },
   "rifle_shoot1":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.rifle_shoot",
     "sounds":[
-      "quirks:rifle/shoot1"
-    ],
-    "subtitle":"subtitles.quirks.rifle_shoot"
+      {
+        "name":"quirks:rifle/rifle_shoot1",
+        "stream":false
+      }
+    ]
   },
   "rifle_shoot2":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.rifle_shoot",
     "sounds":[
-      "quirks:rifle/shoot2"
-    ],
-    "subtitle":"subtitles.quirks.rifle_shoot"
+      {
+        "name":"quirks:rifle/rifle_shoot2",
+        "stream":false
+      }
+    ]
   },
   "severance_impale":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.severance_impale",
     "sounds":[
-      "quirks:severance/impale"
-    ],
-    "subtitle":"subtitles.quirks.severance_impale"
+      {
+        "name":"quirks:severance/severance_impale",
+        "stream":false
+      }
+    ]
   },
   "severance_slash":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.severance_slash",
     "sounds":[
-      "quirks:severance/slash"
-    ],
-    "subtitle":"subtitles.quirks.severance_slash"
+      {
+        "name":"quirks:severance/severance_slash",
+        "stream":false
+      }
+    ]
   },
   "smokescreen_concealment_veil":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.smokescreen_concealment_veil",
     "sounds":[
-      "quirks:smokescreen/concealment_veil"
-    ],
-    "subtitle":"subtitles.quirks.smokescreen_concealment_veil"
+      {
+        "name":"quirks:smokescreen/smokescreen_concealment_veil",
+        "stream":false
+      }
+    ]
   },
   "smokescreen_full_blast":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.smokescreen_full_blast",
     "sounds":[
-      "quirks:smokescreen/full_blast"
-    ],
-    "subtitle":"subtitles.quirks.smokescreen_full_blast"
+      {
+        "name":"quirks:smokescreen/smokescreen_full_blast",
+        "stream":false
+      }
+    ]
   },
   "smokescreen_smoke_trail":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.smokescreen_smoke_trail",
     "sounds":[
-      "quirks:smokescreen/smoke_trail"
-    ],
-    "subtitle":"subtitles.quirks.smokescreen_smoke_trail"
+      {
+        "name":"quirks:smokescreen/smokescreen_smoke_trail",
+        "stream":false
+      }
+    ]
   },
   "somnambulist_dreaming":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.somnambulist_dreaming",
     "sounds":[
-      "quirks:somnambulist/dreaming"
-    ],
-    "subtitle":"subtitles.quirks.somnambulist_dreaming"
+      {
+        "name":"quirks:somnambulist/somnambulist_dreaming",
+        "stream":false
+      }
+    ]
   },
   "somnambulist_mist":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.somnambulist_mist",
     "sounds":[
-      "quirks:somnambulist/mist"
-    ],
-    "subtitle":"subtitles.quirks.somnambulist_mist"
+      {
+        "name":"quirks:somnambulist/somnambulist_mist",
+        "stream":false
+      }
+    ]
+  },
+  "wisteria_poison":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.wisteria_poison",
+    "sounds":[
+      {
+        "name":"quirks:wisteria/wisteria_poison",
+        "stream":false
+      }
+    ]
   },
   "zero_gravity_float":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.zero_gravity_float",
     "sounds":[
-      "quirks:zero_gravity/float"
-    ],
-    "subtitle":"subtitles.quirks.zero_gravity_float"
+      {
+        "name":"quirks:zero_gravity/zero_gravity_float",
+        "stream":false
+      }
+    ]
   },
   "zero_gravity_here_i_come":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.zero_gravity_here_i_come",
     "sounds":[
-      "quirks:zero_gravity/here_i_come"
-    ],
-    "subtitle":"subtitles.quirks.zero_gravity_here_i_come"
+      {
+        "name":"quirks:zero_gravity/zero_gravity_here_i_come",
+        "stream":false
+      }
+    ]
   },
   "zero_gravity_ill_make_you_float":{
+    "category":"player",
+    "subtitle":"subtitles.quirks.zero_gravity_ill_make_you_float",
     "sounds":[
-      "quirks:zero_gravity/ill_make_you_float"
-    ],
-    "subtitle":"subtitles.quirks.zero_gravity_ill_make_you_float"
+      {
+        "name":"quirks:zero_gravity/zero_gravity_ill_make_you_float",
+        "stream":false
+      }
+    ]
   }
 }

@@ -1,17 +1,15 @@
 {
-   "required":true,
-   "package":"dev.overgrown.quirks.mixin",
-   "compatibilityLevel":"JAVA_17",
-   "mixins":[
-      "BlindedStatusEffectInGameHudMixin"
-   ],
-   "injectors":{
-      "defaultRequire":1
-   },
-   "overwrites":{
-      "requireAnnotations":true
-   },
-   "client":[
-      "DreamingStatusEffectInGameHudMixin"
-   ]
+  "required": true,
+  "package": "dev.overgrown.quirks.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "somnambulist.DreamingPlayerEntityMixin"
+  ],
+  "client": [
+    "client.PlayerEntityModelAccessor",
+    "client.PlayerEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
 }

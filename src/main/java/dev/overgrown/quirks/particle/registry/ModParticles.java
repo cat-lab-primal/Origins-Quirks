@@ -1,28 +1,39 @@
 package dev.overgrown.quirks.particle.registry;
 
+import com.mojang.serialization.Codec;
 import dev.overgrown.quirks.Quirks;
-import dev.overgrown.quirks.particle.blueflame.BlueflameParticleEffect;
-import dev.overgrown.quirks.particle.hellflame.HellflameParticleEffect;
-import dev.overgrown.quirks.particle.physical_charged.ChargedStrikeParticleEffect;
-import net.fabricmc.fabric.api.particle.v1.FabricParticleTypes;
+import dev.overgrown.quirks.particle.SizedLifetimeParticleEffect;
+import dev.overgrown.quirks.particle.SizedParticleEffect;
 import net.minecraft.particle.ParticleType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 
 public class ModParticles {
-    // Update particle types to use their specific effect classes
-    public static final ParticleType<BlueflameParticleEffect> BLUEFLAME =
-            FabricParticleTypes.complex(true, BlueflameParticleEffect.FACTORY);
 
-    public static final ParticleType<HellflameParticleEffect> HELLFLAME =
-            FabricParticleTypes.complex(true, HellflameParticleEffect.FACTORY);
-
-    public static final ParticleType<ChargedStrikeParticleEffect> CHARGED_STRIKE =
-            FabricParticleTypes.complex(true, ChargedStrikeParticleEffect.FACTORY);
+    public static final ParticleType<SizedParticleEffect> BLUEFLAME = registerSized("blueflame");
+    public static final ParticleType<SizedParticleEffect> HELLFLAME = registerSized("hellflame");
+    public static final ParticleType<SizedLifetimeParticleEffect> WARP_GATE = registerSizedLifetime("warp_gate");
 
     public static void registerParticles() {
-        Registry.register(Registries.PARTICLE_TYPE, Quirks.identifier("blueflame"), BLUEFLAME);
-        Registry.register(Registries.PARTICLE_TYPE, Quirks.identifier("hellflame"), HELLFLAME);
-        Registry.register(Registries.PARTICLE_TYPE, Quirks.identifier("charged_strike"), CHARGED_STRIKE);
+    }
+
+    private static ParticleType<SizedParticleEffect> registerSized(String path) {
+        return Registry.register(Registries.PARTICLE_TYPE, Quirks.identifier(path),
+                new ParticleType<>(false, SizedParticleEffect.PARAMETERS_FACTORY) {
+                    @Override
+                    public Codec<SizedParticleEffect> getCodec() {
+                        return SizedParticleEffect.createCodec(this);
+                    }
+                });
+    }
+
+    private static ParticleType<SizedLifetimeParticleEffect> registerSizedLifetime(String path) {
+        return Registry.register(Registries.PARTICLE_TYPE, Quirks.identifier(path),
+                new ParticleType<>(false, SizedLifetimeParticleEffect.PARAMETERS_FACTORY) {
+                    @Override
+                    public Codec<SizedLifetimeParticleEffect> getCodec() {
+                        return SizedLifetimeParticleEffect.createCodec(this);
+                    }
+                });
     }
 }

@@ -7,10 +7,3 @@
 # These are Windows script files and should use crlf
 *.bat           text eol=crlf
 
-# Auto detect text files and perform LF normalization
-* text=auto
-
-# Auto detect language files
-*.json linguist-detectable=true
-*.mcfunction linguist-detectable=true
-

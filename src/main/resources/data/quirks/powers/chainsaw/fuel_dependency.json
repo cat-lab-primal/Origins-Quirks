@@ -1,9 +1,0 @@
-{
-  "type": "origins:exhaust",
-  "interval": 40,
-  "exhaustion": 0.6,
-  "condition": {
-    "type": "origins:power_active",
-    "power": "quirks:chainsaw/chainsaw_appendages_toggle"
-  }
-}
