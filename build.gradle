@@ -75,12 +75,9 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 
-	// Origins dependency
-	modImplementation "io.github.apace100:origins-fabric:${project.origins_version}"
-
 	// Apoli dependency
-	modApi "io.github.apace100:apoli:${project.apoli_version}"
-	include "io.github.apace100:apoli:${project.apoli_version}"
+	modImplementation "dev.overgrown.apoli:apoli:${project.apoli_maven_version}"
+	include "dev.overgrown.apoli:apoli:${project.apoli_maven_version}"
 
 	// Trinkets dependency (Optional)
 	modCompileOnly "dev.emi:trinkets:${trinkets_version}"
