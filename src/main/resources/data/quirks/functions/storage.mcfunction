@@ -1,2 +1,2 @@
-data merge storage catsorigins:temp {powers:"catsorigins:explosion_e"}
-function catsorigins:grant_power with storage catsorigins:temp
+data merge storage quirks:temp {powers:"quirks:explosion"}
+function quirks:grant_power with storage quirks:temp
